@@ -11,9 +11,14 @@ Learn to use the tools that are available from the Galaxy Project. This is the s
 
 ## 3. Python for Genomic Data Science
 This class provides an introduction to the Python programming language and the iPython notebook. This is the third course in the Genomic Big Data Science Specialization from Johns Hopkins University.
+#### Notebooks: 
+* 'Working_with_Galaxy_Course_Project_Supplemental_Code.ipynb' 
 
 ## 4. Algorithms for DNA Sequencing
 We will learn computational methods -- algorithms and data structures -- for analyzing DNA sequencing data. We will learn a little about DNA, genomics, and how DNA sequencing is used. We will use Python to implement key algorithms and data structures and to analyze real genomes and DNA sequencing datasets.
+
+#### Notebooks: 
+* 'parsing_sequencing_reads.ipynb'
 
 ## 5. Command Line Tools for Genomic Data Science
 Introduces to the commands that you need to manage and analyze directories, files, and large sets of genomic data. This is the fourth course in the Genomic Big Data Science Specialization from Johns Hopkins University.
@@ -26,13 +31,3 @@ Learn to use tools from the Bioconductor project to perform analysis of genomic 
 
 ## 8. Bioconductor for Genomic Data Science
 Learn to use tools from the Bioconductor project to perform analysis of genomic data. This is the fifth course in the Genomic Big Data Specialization from Johns Hopkins University.
-
-
-# My notebooks contain: 
-
-**'Parsing_sequencing_reads'**
-* Find motifs within sequences - find their position and the number of times they occur
-* Find motifs within the reverse complement of the sequence
-* Find the motif's reverse complement within the original sequence
-* Find motoifs in a sequence allowing for a given number of mismatches
-* Find out if there are any positions along the read with lower quality on average than other positions. This would indicate an error with the sequencer.
