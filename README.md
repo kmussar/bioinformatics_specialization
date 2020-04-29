@@ -20,6 +20,8 @@ We will learn computational methods -- algorithms and data structures -- for ana
 #### Notebooks: 
 * 'parsing_sequencing_reads.ipynb'
 > Find motifs within sequences - their position and the number of times they occur. Also, find motifs within the reverse complement of the sequence and the reverse complement of the motif within the original sequence. Find motoifs in a sequence allowing for a given number of mismatches. And lastly, determine if there are any positions along the read with lower quality on average than other positions. This would indicate an error with the sequencer.
+* 'alignment and assembly'
+> Write a function to perform local alignment, specifically to determine the edit distance between the best match of a pattern and reference genome. Also, write a function to make an overlap graph of exact matches between reads. Report the number of pairs found between reads and the number of reads with outgoing edges.
 
 ## 5. Command Line Tools for Genomic Data Science
 Introduces to the commands that you need to manage and analyze directories, files, and large sets of genomic data. This is the fourth course in the Genomic Big Data Science Specialization from Johns Hopkins University.
